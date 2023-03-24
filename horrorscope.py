@@ -3,7 +3,7 @@ import requests
 
 # sign = ("Aries", "taurus")
 
-print("sd")
+print("\nWELCOME TO YOUR SIGN READING", "\n")
 
 
 class Astrogame:
@@ -52,8 +52,8 @@ class Astrogame:
 
 
 astro = Astrogame()
-astro.get_day()
 astro.get_zodiac_sign()
+astro.get_day()
 astro.your_sign(astro.sign)
 if astro.is_valid_sign(astro.sign):
     # astro.your_sign(astro.sign)
