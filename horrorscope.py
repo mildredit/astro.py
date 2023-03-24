@@ -3,6 +3,8 @@ import requests
 
 # sign = ("Aries", "taurus")
 
+print("sd")
+
 
 class Astrogame:
     url = 'https://aztro.sameerkumar.website/'
